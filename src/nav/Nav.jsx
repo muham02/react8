@@ -7,17 +7,17 @@ export const Nav = () => {
    
   return (
   <div>
-    <header className={nav.header}>
-         <div className={nav.container}>
-            <img className={nav.header__img} src="https://www.freeiconspng.com/thumbs/market-icons/market-stand-icon-1.png" alt="" />
-     <NavLink className={nav.header__nav} to=''>
-    Home
-    </NavLink>
-    <NavLink  className={nav.header__nav} to='korzinka'>
-    Korzinka
-    </NavLink>
-     </div>
-    </header>
+      {/* <header className={nav.header}>
+          <div className={nav.container}>
+              <img className={nav.header__img} src="https://www.freeiconspng.com/thumbs/market-icons/market-stand-icon-1.png" alt="" />
+      <NavLink className={nav.header__nav} to=''>
+      Home
+      </NavLink>
+      <NavLink  className={nav.header__nav} to='korzinka'>
+      Korzinka
+      </NavLink>
+      </div>
+      </header> */}
    <Routes>
     <Route path="" element={<Home/>}/>
     <Route path="korzinka" element={<Korzinka/>}/>

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Korzinka = () => {
   return (
-    <div>Korzinka</div>
+    <div>
+      
+    </div>
   )
 }
 

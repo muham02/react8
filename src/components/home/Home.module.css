@@ -41,4 +41,8 @@
   margin: 0 auto;
   background-image: linear-gradient(293.5deg, #b595d0 3.2%, #fb94cf 9.9%, #b595d0 22.9%, #fb94cf 36.4%, #b595d0 50.1%, #fb94cf 61.1%, #b595d0 71.2%, #fb94cf 84.2%, #b595d0 92.2%);
 }
+
+span {
+  cursor: pointer;
+}
 /*# sourceMappingURL=Home.module.css.map */
